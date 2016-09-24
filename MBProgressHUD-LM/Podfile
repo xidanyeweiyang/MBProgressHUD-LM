@@ -1,0 +1,7 @@
+platform :ios ,'9.0'
+target ‘MBProgressHUD-LM’ do
+
+pod 'MBProgressHUD', '~> 1.0.0'
+
+
+end

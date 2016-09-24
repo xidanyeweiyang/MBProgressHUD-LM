@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2Lt-fL-LQG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--MBProgressHUD+LM-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cto-Wq-7Ez">
+                                <rect key="frame" x="200" y="114" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="jqf-a2-iQV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="简单显示信息">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="simpleMessageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p3t-rh-j1G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCT-jT-wui">
+                                <rect key="frame" x="200" y="242" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9BK-h3-9g1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="显示成功信息">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="successMessageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bfl-xu-Lgo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIH-KE-aUp">
+                                <rect key="frame" x="200" y="306" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="txn-9h-fp5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="显示失败信息">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="failMessageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Og0-W3-64T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwN-22-Jsh">
+                                <rect key="frame" x="200" y="366" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="R57-c8-S1j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="显示警告信息">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="warningMessageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I3E-ZM-nev"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KB4-g6-ivQ">
+                                <rect key="frame" x="200" y="430" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="eyP-Yv-jN2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="显示info信息">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="infoMessageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VaL-2i-rYf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Il-ay-Xnv">
+                                <rect key="frame" x="200" y="494" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="sBV-tg-MSh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="显示进度条progress">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="barProgressBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="01F-SM-eTI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAe-nJ-jKW">
+                                <rect key="frame" x="200" y="558" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="jGW-9j-Ipu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="显示圆饼progress">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="determinateProgress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OQd-zD-w1r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEg-Xa-o60">
+                                <rect key="frame" x="200" y="178" width="200" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="4vc-E9-EFv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="带菊花显示信息">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="JuhuaMeaageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHs-Mg-O9u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dwN-22-Jsh" firstAttribute="centerX" secondItem="NIH-KE-aUp" secondAttribute="centerX" id="1CV-TB-buZ"/>
+                            <constraint firstItem="dwN-22-Jsh" firstAttribute="top" secondItem="NIH-KE-aUp" secondAttribute="bottom" constant="26" id="2YL-Wt-j4a"/>
+                            <constraint firstItem="kEg-Xa-o60" firstAttribute="centerX" secondItem="cto-Wq-7Ez" secondAttribute="centerX" id="94T-P3-Auh"/>
+                            <constraint firstItem="NIH-KE-aUp" firstAttribute="centerX" secondItem="OCT-jT-wui" secondAttribute="centerX" id="KY1-E3-6qU"/>
+                            <constraint firstItem="cto-Wq-7Ez" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="MGA-at-xcj"/>
+                            <constraint firstItem="cto-Wq-7Ez" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QVr-dC-g8t"/>
+                            <constraint firstItem="kEg-Xa-o60" firstAttribute="top" secondItem="cto-Wq-7Ez" secondAttribute="bottom" constant="30" id="Qf2-j7-NTi"/>
+                            <constraint firstItem="5Il-ay-Xnv" firstAttribute="centerX" secondItem="KB4-g6-ivQ" secondAttribute="centerX" id="Sw8-7j-y4O"/>
+                            <constraint firstItem="OCT-jT-wui" firstAttribute="top" secondItem="kEg-Xa-o60" secondAttribute="bottom" constant="30" id="Wlm-j8-tDQ"/>
+                            <constraint firstItem="5Il-ay-Xnv" firstAttribute="top" secondItem="KB4-g6-ivQ" secondAttribute="bottom" constant="30" id="Wph-5e-dss"/>
+                            <constraint firstItem="LAe-nJ-jKW" firstAttribute="top" secondItem="5Il-ay-Xnv" secondAttribute="bottom" constant="30" id="Wt9-0j-wdi"/>
+                            <constraint firstItem="OCT-jT-wui" firstAttribute="centerX" secondItem="kEg-Xa-o60" secondAttribute="centerX" id="e2L-Un-Icz"/>
+                            <constraint firstItem="KB4-g6-ivQ" firstAttribute="top" secondItem="dwN-22-Jsh" secondAttribute="bottom" constant="30" id="gzK-hK-cqF"/>
+                            <constraint firstItem="LAe-nJ-jKW" firstAttribute="centerX" secondItem="5Il-ay-Xnv" secondAttribute="centerX" id="hku-yX-fK9"/>
+                            <constraint firstItem="KB4-g6-ivQ" firstAttribute="centerX" secondItem="dwN-22-Jsh" secondAttribute="centerX" id="r4e-1L-Xvd"/>
+                            <constraint firstItem="NIH-KE-aUp" firstAttribute="top" secondItem="OCT-jT-wui" secondAttribute="bottom" constant="30" id="uKH-d8-DRy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MBProgressHUD+LM" id="Ul6-SS-u64">
+                        <barButtonItem key="rightBarButtonItem" title="消失HUD" id="G6A-DW-r8r">
+                            <connections>
+                                <action selector="navigationRightItem:" destination="BYZ-38-t0r" id="bSr-XW-kj2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1152" y="349"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ze5-KG-iCQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Lt-fL-LQG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tHG-I5-kmT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sQ9-go-5o5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oap-od-779" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="1009"/>
+        </scene>
+    </scenes>
+</document>
